@@ -8,6 +8,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { SearchComponent } from './search/search.component';
 import { StrikethroughDirective } from './strikethrough.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StrikethroughDirective } from './strikethrough.directive';
     ProfileComponent,
     NotfoundComponent,
     SearchComponent,
-    StrikethroughDirective
+    StrikethroughDirective,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
