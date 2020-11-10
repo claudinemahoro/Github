@@ -6,6 +6,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+# Description
+Through this project,a user can search a github account and get its information displayed and all the repositories it holds. And they can be directed to that github account via this project. My github account informtion is also displayed on the profile page.
+
+# Author
+Claudine MAHORO
+github username: claudinemahoro
+
+# Link to live server
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
