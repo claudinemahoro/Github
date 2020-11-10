@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileComponent } from './profile/profile.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { SearchComponent } from './search/search.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SearchComponent } from './search/search.component';
     NavbarComponent,
     ProfileComponent,
     NotfoundComponent,
-    SearchComponent
+    SearchComponent,
+    StrikethroughDirective
   ],
   imports: [
     BrowserModule,
